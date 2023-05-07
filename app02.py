@@ -45,7 +45,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("PHP Training Assistant")
-st.write("私は開発言語研修のChatBotアシスタントです。PHPおよびSQL言語に関することなら何なりとお申し付けください。")
+st.write("私は開発言語研修のChatBotアシスタントです。PHPおよびSQL言語に関することなら何なりとご相談ください。")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
 
